@@ -27,6 +27,19 @@
 	clear: both;
 }
 
+.img-responsive {
+	
+	max-width: 100%;
+	
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
 [class*="col-"] {
 	
 	padding: 0 10px;
@@ -253,5 +266,14 @@
 	
 	background-color: black;
 	height: 300px;
+	
+}
+
+#bg-flowers {
+	
+	background-image: url("../img/bg-ye.jpg");
+	height: 300px;
+	background-size: cover;
+	background-orgin: content-box;
 	
 }
